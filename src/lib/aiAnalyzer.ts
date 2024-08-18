@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const OPENROUTER_API_KEY = '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';
-const YOUR_SITE_URL = 'http://localhost:3000'; // Update this when you deploy
+const YOUR_SITE_URL = 'https://scraper-sensei-2.vercel.app/' || 'https://scraper-sensei.vercel.app/'; // Updated for deployment
 const YOUR_SITE_NAME = 'Scraper Sensei';
 
 export async function analyzeContent(content: { title: string; text: string }) {
